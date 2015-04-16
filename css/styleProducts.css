@@ -1,0 +1,273 @@
+.heightNav{
+	height: 100px;
+	background-image: url("../images/background.jpg");
+	border: solid 1px white;
+}
+#logopos
+{
+position:absolute;
+z-index: 1;
+}
+#logo{
+width: 130px;
+height: 130px;
+}
+#tbl{
+	width:90%; 
+	border: solid 5px rgb(117, 204, 213); 
+	margin:0 auto;
+}
+	#tblban
+	{
+		background-color: #75CCD5;
+		color:black;
+	}
+		.tblrow1
+		{
+			background-color: rgb(234, 234, 234);
+			text-align:center;
+		}
+			.tblrow2
+			{
+				background-color:white;
+				text-align:center;
+			}
+#menu
+{
+background: -webkit-gradient(linear, left top, left bottom, from(#FEF5F5), to(#48C9FF));
+}
+#headder{
+height:500px;
+background-image: url("../images/background.jpg");
+}
+	.headtxt
+	{
+		font-family:sans-serif;
+		margin: 0 auto;
+		text-align:center;
+		font-size:24px;
+		font-weight:300;
+		
+	}
+		#textcont
+		{
+			position:relative;
+			top:200px;
+		}
+		#textcont2
+		{
+		position:relative;
+		top:80px;
+		}
+.headtxtdes
+{
+color:white;
+}
+.maintxtdes
+{
+color:black;
+}
+#banner
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 76, 0.3)), to(rgba(0, 102, 159, 0.3)));
+	opacity: 0.99;
+	background: -moz-linear-gradient(top, rgba(0, 0, 4, 1), rgba(0, 102, 159, 1));
+	height: 150px;
+}
+	#img1pos
+	{
+	width:100%;
+	height:650px;
+	position:absolute;
+	overflow:hidden;
+	}
+.list2
+{
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 4, 203, 0.17)), to(rgba(5, 38, 147, 1)));
+background: -moz-linear-gradient(top, #85EE00, #17A500);
+height: 147px;
+}
+.list2 a
+{
+height:150px;
+}
+.list2 a:hover
+{
+
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 4, 203, 0.01)), to(rgba(5, 38, 147, 0.01)));
+}
+#main
+{
+height:;
+background-color: rgb(234, 234, 234);
+}	
+.navSpaceTop{
+	margin-top:150px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    margin-top:100px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+#myCanvas{
+	margin-left:400px;
+	background-color:green;
+	
+}
+
+.txtSpaceJumbo{
+	margin-left:300px;
+}
+
+.ColorChanger{
+	background-color:gray;
+}
+
+#wrapper{
+
+}
+.infodiv{
+	margin-top:0px;
+}
+.infoVideoHolder{
+     height:300px;
+
+}
+#myCanvas{
+	margin-left:0px;
+	background-color:green;
+	width:600px;
+	height:400px;
+	margin-left:300px;
+    }
+
+ .PentestBtnHolder{
+ 	height:100px;
+ 	background-color:#E0F5FF;
+ }
+
+ #PenButton{
+ 	height: 50px;
+    width: 350px;
+    background-color:#FF0000; 
+    border: 1px solid #000;
+    border-radius: 24px;
+    color:white;
+ }
+footer{
+/* position: absolute;*/
+ display:block;
+ height:100px;
+ background-color: #f5f5f5;
+ bottom:0px;
+ width:100%;
+ padding:0px;
+ margin-left:0px;
+}
+
+/* media queries have to be add for different widths */
+@media screen and (max-width: 960px) {
+    #myCanvas{
+	margin-left:0px;
+	background-color:green;
+	width:400px;
+	
+    }
+    .txtSpaceJumbo{
+	 margin-left:0px;
+    
+    }
+	
+#headder{
+height:400px;
+}
+.headtxt{
+	font-family:sans-serif;
+	margin: 0 auto;
+	text-align:center;
+	font-size:18px;
+	font-weight:300;
+	
+	}
+#textcont
+		{
+		position:relative;
+		top:140px;
+		}
+		
+		#img1pos
+		{
+			width:100%;
+			height:550px;
+			position:absolute;
+			overflow:hidden;
+		}
+
+
+}
+@media Screen and (max-width:768px){
+.list2
+{
+background: rgba(246, 247, 248, 0.6);
+height: 30px;
+}	
+	.list2 a
+	{
+		height:30px;
+	}
+		.navbar-collapse.in {
+			width:50%;
+			float: right;
+			position: relative;
+			right: 10px;
+			z-index: 9999;
+		}
+}
+@media screen and (max-width: 432px) {
+    #myCanvas{
+	width:200;
+	margin-left:0px;
+	background-color:green;
+    }
+/* logo decreases in size to save space if screen size is less than 432px*/
+#logo
+	{
+	width:100px;
+	height:100px;
+	}
+#headder{
+height:250px;
+}
+.headtxt{
+	font-family:sans-serif;
+	margin: 0 auto;
+	text-align:center;
+	font-size:18px;
+	font-weight:300;
+
+	}
+#textcont
+		{
+		position:relative;
+		top:70px;
+		}
+		#img1pos
+	{
+	width:100%;
+	height:400px;
+	position:absolute;
+	overflow:hidden;
+	}
+
+	}
+
+
+/* style for contact just testing with this style for now then link the contact page to its stlyesheet */
+body{
+	background-color:#F5F5F5;
+} 

@@ -1,0 +1,381 @@
+.heightNav{
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+.team
+{
+margin:0 auto;
+text-align:center;
+}
+#logo{
+width:130px;
+height:130px;
+opacity: 0.89;
+}
+#removewhitespce
+{
+float:left;
+}
+#logopos
+{
+position:absolute;
+z-index: 9999;
+}
+#menu
+{
+background: -webkit-gradient(linear, left top, left bottom, from(#FEF5F5), to(#48C9FF));
+}
+#headder{
+height: 650px;
+}
+	.headtxt
+	{
+		font-family:sans-serif;
+		margin: 0 auto;
+		text-align:center;
+		font-size:24px;
+		font-weight:300;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+		#textcont
+		{
+			position:relative;
+			top: 450px;
+		}
+		#textcont2
+		{
+		position:relative;
+		top:80px;
+		}
+.headtxtdes
+{
+color:white;
+}
+.maintxtdes
+{
+color:black;
+}
+#banner
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 76, 0.3)), to(rgba(0, 102, 159, 0.3)));
+	opacity: 0.99;
+	background: -moz-linear-gradient(top, rgba(0, 0, 4, 1), rgba(0, 102, 159, 1));
+	height: 100px;
+}
+	#img1pos
+	{
+	width:100%;
+	height:650px;
+	position:absolute;
+	display: block;
+	overflow:hidden;
+	}
+.list2
+{
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 8, 20, 0.39)), to(rgba(1, 79, 117, 0.67)));
+background: -moz-linear-gradient(top, #85EE00, #17A500);
+height: 100px;
+}
+.list2 a
+{
+height:100px;
+}
+.list2 a:hover
+{
+
+background: -webkit-gradient(linear, left top, left bottom, from(#48C9FF), to(#1C4D60));
+}
+#main
+{
+height:300px;
+background-color: rgb(234, 234, 234);
+}	
+.navSpaceTop{
+	margin-top:150px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    margin-top:100px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+#myCanvas{
+	margin-left:400px;
+	background-color:green;
+	
+}
+
+.txtSpaceJumbo{
+	margin-left:300px;
+}
+
+.ColorChanger{
+	background-color:gray;
+}
+
+#wrapper{
+
+}
+.infodiv{
+	margin-top:0px;
+}
+.infoVideoHolder{
+     height:300px;
+
+}
+#myCanvas{
+	margin-left:0px;
+	background-color:green;
+	width:600px;
+	height:400px;
+	margin-left:300px;
+    }
+
+ .PentestBtnHolder{
+ 	height:100px;
+ 	background-color:#E0F5FF;
+ }
+
+ #PenButton{
+ 	height: 50px;
+    width: 350px;
+    background-color:#FF0000; 
+    border: 1px solid #000;
+    border-radius: 24px;
+    color:white;
+ }
+footer{
+/* position: absolute;*/
+ display:block;
+ height:100px;
+ 
+background-color: rgb(234, 234, 234);
+ bottom:0px;
+ width:100%;
+ padding:0px;
+ margin-left:0px;
+}
+
+/* media queries have to be add for different widths */
+ @media only screen and (max-width : 1200px) {
+#main{
+height:350px;
+}
+#headder{
+	height:600px;
+}
+	#img1pos
+	{
+		width:100%;
+		height: 600px;
+		position:absolute;
+		display: block;
+		overflow:hidden;
+	}
+		#textcont
+		{
+		position:relative;
+		top: 400px;
+		}
+ }
+
+@media screen and (max-width: 960px) {
+    #myCanvas{
+	margin-left:0px;
+	background-color:green;
+	width:400px;
+	
+    }
+    .txtSpaceJumbo{
+	 margin-left:0px;
+    
+    }
+	
+#headder{
+height:550px;
+}
+.headtxt{
+	font-family:sans-serif;
+	margin: 0 auto;
+	text-align:center;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight:300;
+	
+	}
+.headtxtdes
+{
+color:white;
+font-size:18px;
+}
+.maintxtdes
+{
+color:black;
+font-size:18px;
+}
+#textcont
+		{
+		position:relative;
+		top: 350px;
+		}
+		
+		#img1pos
+		{
+			width:100%;
+			height:550px;
+			position:absolute;
+			overflow:hidden;
+		}
+
+
+}
+@media Screen and (max-width:768px){
+.list2
+{
+background: rgba(246, 247, 248, 0.6);
+height: 30px;
+}	
+	.list2 a
+	{
+		height:30px;
+	}
+		.navbar-collapse.in {
+			width:50%;
+			float: right;
+			position: relative;
+			right: 10px;
+			z-index: 9999;
+		}
+#headder{
+height: 400px;
+}
+.headtxt{
+	font-family:sans-serif;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	font-weight:300;
+	
+	}
+	.headtxtdes
+{
+color:white;
+font-size:18px;
+}
+.maintxtdes
+{
+color:black;
+font-size:18px;
+}
+#textcont
+		{
+		position:relative;
+		top: 250px;
+		}
+		
+		#img1pos
+		{
+			width:100%;
+			height: 400px;
+			position:absolute;
+			overflow:hidden;
+		}
+#main
+{
+height:400px;
+}
+}
+@media screen and (max-width: 432px) {
+    #myCanvas{
+	width:200;
+	margin-left:0px;
+	background-color:green;
+    }
+/* logo decreases in size to save space if screen size is less than 432px*/
+#logo
+	{
+	width:100px;
+	height:100px;
+	opacity: 0.89;
+	}
+#headder{
+height:300px;
+}
+.headtxt{
+	font-family:sans-serif;
+	margin: 0 auto;
+	text-align:center;
+	font-size: 18px;
+	font-weight:300;
+
+	}
+	.headtxtdes
+{
+color:white;
+font-size: 16px;
+}
+.maintxtdes
+{
+color:black;
+font-size:18px;
+}
+#textcont
+		{
+		position:relative;
+		top: 200px;
+		}
+		#img1pos
+	{
+	width:100%;
+	height:300px;
+	position:absolute;
+	overflow:hidden;
+	}
+#main{
+height:500px;
+}
+}
+@media only screen and (max-width : 320px) {
+
+ #main{
+ height:600px;
+ }  
+ #headder{
+height:250px;
+}
+#textcont
+		{
+		position:relative;
+		top: 160px;
+		}
+.headtxtdes
+{
+color:white;
+font-size: 12px;
+}
+.maintxtdes
+{
+color:black;
+font-size:18px;
+}
+#img1pos
+	{
+	width:100%;
+	height:250px;
+	position:absolute;
+	overflow:hidden;
+	}
+}
+
+/* style for contact just testing with this style for now then link the contact page to its stlyesheet */
+body{
+	background-color:#F5F5F5;
+} 
